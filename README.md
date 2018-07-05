@@ -9,6 +9,7 @@ Fortnite Stats is a Python program for see a fortnite player stats
 `$ pip install Pillow`
 
 `Get an API key on: https://fortnitetracker.com/site-api`
+
 `Input your API key on line 22`
 
 
