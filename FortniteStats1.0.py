@@ -19,7 +19,7 @@ import statistics
 acts = ['PS4', 'XBOX ONE', 'PC']
 
 # The fortnite API
-fortnite = Fortnite('dc4c889e-af19-4e65-8257-8061d3fc453f')
+fortnite = Fortnite('Your Api Key')
 
 # Window adjustment
 root = Tk()
