@@ -19,7 +19,7 @@ import statistics
 acts = ['PS4', 'XBOX ONE', 'PC']
 
 # The fortnite API
-fortnite = Fortnite('Your API Key')
+fortnite = Fortnite('Your API key')
 
 # Window adjustment
 root = Tk()
@@ -30,13 +30,13 @@ root.resizable(width=False, height=False)
 
 # The first wallpaper
 img = ImageTk.PhotoImage(Image.open
-        ("Images/Wallpapers/Wallpaper1.jpg"))                                          
+        ("Images/Wallpapers/Wallpaper3.jpg"))                                          
 panel = Label(root, image = img)                                        
 panel.pack(side = "bottom", fill = "both", expand = "no")               
 
 # The second walllpaper
 img2 = ImageTk.PhotoImage(Image.open
-        ("Images/Wallpapers/Wallpaper2.jpg"))                                  
+        ("Images/Wallpapers/Wallpaper4.jpg"))                                  
 panel2 = Label(root, image = img2)   
 
 
@@ -475,3 +475,5 @@ entryBox.place(x = 280, y = 5)
 
 # Search button
 Button(root, text='Search', command=Search).place(x = 410, y = 5)
+
+root.mainloop()
