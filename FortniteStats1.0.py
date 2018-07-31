@@ -19,14 +19,16 @@ import statistics
 acts = ['PS4', 'XBOX ONE', 'PC']
 
 # The fortnite API
-fortnite = Fortnite('Your API key')
+fortnite = Fortnite('dc4c889e-af19-4e65-8257-8061d3fc453f')
 
 # Window adjustment
 root = Tk()
 root.geometry('700x600')
-root.title('Fortnite Stats 1.0')
+root.title('Fortnite Stats')
 root.resizable(width=False, height=False)
 
+
+root.iconbitmap(default='Images/Wallpapers/Icon.ico')
 
 # The first wallpaper
 img = ImageTk.PhotoImage(Image.open
